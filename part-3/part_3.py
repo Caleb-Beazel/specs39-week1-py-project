@@ -25,8 +25,14 @@ def book_title(book):
 def book_author(book):
     return book["author"]
 
+def book_author(book):
+    return book["year"]
+
 def book_rating(book):
     return book['rating']
+
+def book_rating(book):
+    return book['pages']
 
 # print(book_title(my_book))
 # print(book_author(my_book))
